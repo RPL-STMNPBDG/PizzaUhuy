@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="130dp"
+        android:src="@drawable/header1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pizza"
+        android:text="Selamat Datang"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <ImageView
+        android:layout_width="126dp"
+        android:layout_height="112dp"
+        android:src="@drawable/logo7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <ImageView
+        android:layout_width="116dp"
+        android:layout_height="110dp"
+        android:src="@drawable/scan13"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="400px"
+        android:src="@drawable/welcome16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.241" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/deli"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/delivery2"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/take"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/takeaway14"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/dine"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/dinein3"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/quick"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:src="@drawable/quick12"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.59"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/poin"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/point11"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/vouch"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/voucher15"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/unem"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/menyu8"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/kosong6"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iklan1"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/pro1satu" />
+
+                <ImageView
+                    android:id="@+id/iklan2"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/pro2dua" />
+
+                <ImageView
+                    android:id="@+id/iklan3"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/pro3tiga" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintVertical_bias="1"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/white"
+        android:weightSum="5">
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/home4"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/pencetorder"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/ourder9"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="85dp"
+            android:src="@drawable/phreward10"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/inbox5"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/account1"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
